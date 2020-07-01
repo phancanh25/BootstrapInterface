@@ -1,8 +1,17 @@
 
+
+.container{
+	margin: 0!important;
+	background: linear-gradient(to right bottom,#f7f5fb 50%,#fff 50%);
+}
+
 .row{
 	display: flex;
 	flex-direction: row;
-	margin: 80px 40px;
+	margin: 80px 400px;
+}
+.container .row .row-left{
+	margin-right: 20px;
 }
 .container .row .row-left #caption{
 	font-size: 60.1456px;
@@ -15,8 +24,42 @@
 	line-height:35.4744px;
 	margin-top: 0!important;
 	font-weight: 400;
+	color: #756e6d;
 }
 #img-icon{
-	width: 246px;
-	height: 228px;
+	width: 297px;
+	height: 275px;
+	margin: 0 20px;
+}
+
+.container .row .row-left #GetStarted{
+	text-decoration: none;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding: 1rem 3rem;
+    font-size: 1.25rem;
+    background-color: #7952b3;
+    color: white;
+    border: solid 0.2px orange;
+    border-radius: 5px;
+}
+.container .row .row-left #GetStarted:hover{
+	background-color: #5e4573;
+}
+.container .row .row-left #Download-main{
+	text-decoration: none;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: 10px;
+	padding: 1rem 3rem;
+    font-size: 1.25rem;
+    color: #33322d;
+    border: solid 0.2px black;
+    border-radius: 5px;
+}
+.container .row .row-left #Download-main:hover{
+	color: white;
+	background-color: #454343;
+	border: solid 1.5px #807c7c;
+	box-shadow: .5px #807c7c;
 }
