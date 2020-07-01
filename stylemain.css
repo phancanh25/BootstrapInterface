@@ -1,0 +1,22 @@
+
+.row{
+	display: flex;
+	flex-direction: row;
+	margin: 80px 40px;
+}
+.container .row .row-left #caption{
+	font-size: 60.1456px;
+	margin-bottom: 0!important;
+	margin-top: 0!important;
+
+}
+#paragragh{
+	font-size: 23.6496px;
+	line-height:35.4744px;
+	margin-top: 0!important;
+	font-weight: 400;
+}
+#img-icon{
+	width: 246px;
+	height: 228px;
+}
